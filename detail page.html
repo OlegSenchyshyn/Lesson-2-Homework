@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Головна сторінка</a>
+        </nav>
+        <br>
+<!-- поштовий сервіс -->
+<form  method="POST" action="https://formspree.io/6181500@gmail.com">
+    <!-- введення ПІБ -->
+    <label>
+        Ваше ім'я : <input type="text" name="User-name">
+    </label>
+    <br>
+    <br>
+    <!-- вкладка розуміє e-mail -->
+    <label for="user-email">Електронна адреса: </label>
+    <input id="user-email" type="email" name="user email">
+    <br>
+    <br>
+    <!-- вибір статі -->
+    <label>Оберіть стать</label>
+        <!-- вкладуємо варіанти -->
+        <label>
+        <input type="radio" name="gender" value="male">Чоловіча
+        </label>
+        <label>
+        <input type="radio" name="gender" value="female">Жіноча
+        </label>
+         <label>
+         <input type="radio" name="gender" value="other">Інша
+        </label>
+    <br>
+    <br>
+    <label>Ваші пропозиції</label>
+        <br>
+    <input type="text" name="proposition" size="50">
+        <br>
+    <!-- Відправити -->
+    <!-- НЕ МОЖУ ЗМІНИТИ ТЕКСТ КНОПКИ -->
+        <input type="file">
+
+    <br>
+    <br>
+    <input type="submit" value="Відправити">
+</form>
+</body>
+</html>
