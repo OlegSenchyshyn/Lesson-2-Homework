@@ -17,7 +17,7 @@
         <br>
     <main>
         <!-- поштовий сервіс -->
-        <form  method="POST" action="https://formspree.io/6181500@gmail.com"></form>
+        <form  method="POST" action="https://formspree.io/6181500@gmail.com">
     <h1>Опитування:</h1>
         <h2>Контактна інформація</h2>
             <!-- введення ПІБ -->
@@ -38,11 +38,11 @@
         <h2>Особиста інформація</h2>
         <!-- Вік вибір стрілками -->
         <label>Дата народження:
-            <input type="date">
+            <input type="date" name="date of birth">
         </label>
     <br>
         <label>Вік :</label>
-            <input type="number" min="0" max="100">
+            <input type="number" min="0" max="100" name="years">
     <br>
     <br>
         <!-- вибір статі -->
@@ -62,47 +62,44 @@
     <br>
         <label for="comments">Ваші вподобання:</label>
     <br>
-        <textarea id="comments"></textarea>
+        <textarea id="comments" name="comments"></textarea>
     <br>
     <!-- Відправити -->
     <!-- НЕ МОЖУ ЗМІНИТИ ТЕКСТ КНОПКИ -->
-        <input type="file">
+        <input type="file" name="file">
     <br>
     <br>
         <h2>Де любите відпочивати?</h2>
-        <label>
-             <input type="checkbox" name="country">Відпочинок закордоном
-        </label>
-    <br>
-        <label>
-            <input type="checkbox">Відпочинок на курортах в України
-        </label>
-    <br>
-        <label>
-            <input type="checkbox">На дачі, за межами міста
-        </label>
-     <br>
-        <label>
-            <input type="checkbox">Не відпочиваю. Я безсмертний поні!
-        </label>
-    <br>
-        <label>
-            <input type="checkbox">Інше
-        </label>
+
+        <input type="checkbox" name="vocation" value="abroad">
+            <label>Відпочинок закордоном</label>
+            <br>
+        <input type="checkbox" name="vocation" value="ukraine">
+            <label>Відпочинок на курортах в України</label>
+            <br>
+        <input type="checkbox" name="vocation" value="village">
+            <label>На дачі, за межами міста</label>
+            <br>
+        <input type="checkbox" name="vocation" value="pony=)">
+            <label>Не відпочиваю. Я безсмертний поні!</label>
+            <br>
+        <input type="checkbox" name="vocation" value="other">
+            <label>Інше</label>
     <br>
     <br>
         <input type="submit" value="Відправити">
     <br>
+    </form>
 </main>
     <br>
 <hr>
 <footer>
     <h3>Контакти:</h3>
-    <a href="tel:+380670000000">+38(067)000-00-00
+    <a href="tel:+380670000000">+38(067)000-00-00</a>
  <br>
-    <a href="mailto:6181500@gmail.com">6181500@gmail.com
+    <a href="mailto:6181500@gmail.com">6181500@gmail.com</a>
  <br>
-    <address><a href="https://www.google.com/maps/place/Львів">Україна, Львів
+    <a href="https://www.google.com/maps/place/Львів">Україна, Львів</a>
  <br>
     <img src="img/logo2.png" alt="logo_small">
     <small>@2019...</small>
