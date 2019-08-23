@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            <img src="img/logo.png" alt="LOGO">
+        <hr>
+        <nav>
+            <a href="index.html">Головна сторінка</a>
+        </nav>
+    </header>
+        <br>
+    <main>
+        <!-- поштовий сервіс -->
+        <form  method="POST" action="https://formspree.io/6181500@gmail.com"></form>
+    <h1>Опитування:</h1>
+        <h2>Контактна інформація</h2>
+            <!-- введення ПІБ -->
+        <label>
+            Ваше ім'я : <input type="text" name="User-name">
+        </label>
+    <br>
+    <br>
+            <!-- вкладка розуміє e-mail -->
+        <label for="user-email">Електронна адреса: </label>
+            <input id="user-email" type="email" name="user email">
+    <br>
+    <br>
+        <label>Номер телефону: </label>
+            <input name="phone number">
+    <br>
+    <br>
+        <h2>Особиста інформація</h2>
+        <!-- Вік вибір стрілками -->
+        <label>Дата народження:
+            <input type="date">
+        </label>
+    <br>
+        <label>Вік :</label>
+            <input type="number" min="0" max="100">
+    <br>
+    <br>
+        <!-- вибір статі -->
+        <label>Оберіть стать: </label>
+        <!-- вкладуємо варіанти -->
+        <label>
+            <input type="radio" name="gender" value="male">Чоловіча
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">Жіноча
+        </label>
+         <label>
+            <input type="radio" name="gender" value="other">Інша
+        </label>
+    <br>
+
+    <br>
+        <label for="comments">Ваші вподобання:</label>
+    <br>
+        <textarea id="comments"></textarea>
+    <br>
+    <!-- Відправити -->
+    <!-- НЕ МОЖУ ЗМІНИТИ ТЕКСТ КНОПКИ -->
+        <input type="file">
+    <br>
+    <br>
+        <h2>Де любите відпочивати?</h2>
+        <label>
+             <input type="checkbox" name="country">Відпочинок закордоном
+        </label>
+    <br>
+        <label>
+            <input type="checkbox">Відпочинок на курортах в України
+        </label>
+    <br>
+        <label>
+            <input type="checkbox">На дачі, за межами міста
+        </label>
+     <br>
+        <label>
+            <input type="checkbox">Не відпочиваю. Я безсмертний поні!
+        </label>
+    <br>
+        <label>
+            <input type="checkbox">Інше
+        </label>
+    <br>
+    <br>
+        <input type="submit" value="Відправити">
+    <br>
+</main>
+    <br>
+<hr>
+<footer>
+    <h3>Контакти:</h3>
+    <a href="tel:+380670000000">+38(067)000-00-00
+ <br>
+    <a href="mailto:6181500@gmail.com">6181500@gmail.com
+ <br>
+    <address><a href="https://www.google.com/maps/place/Львів">Україна, Львів
+ <br>
+    <img src="img/logo2.png" alt="logo_small">
+    <small>@2019...</small>
+</footer>
+</body>
+</html>
